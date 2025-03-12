@@ -5,7 +5,7 @@
     <TargetFramework>net9.0</TargetFramework> <!-- Ensure this is correct -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LargestNumber</StartupObject>
+    <StartupObject>SmallestNumber</StartupObject>
   </PropertyGroup>
 
 </Project>
