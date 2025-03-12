@@ -5,7 +5,11 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>ProductOfNumber</StartupObject> <!-- Add this line -->
+    <!-- <StartupObject>ProductOfNumber</StartupObject> -->
+        <StartupObject>Simplifly</StartupObject>
+
+    
+
   </PropertyGroup>
 
 </Project>
