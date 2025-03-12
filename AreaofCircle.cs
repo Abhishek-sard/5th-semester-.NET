@@ -5,7 +5,7 @@ class AreaofCircle{
         int π = 22/7;
         
 
-        Console.WriteLine("Enter the value of radius");
+        Console.WriteLine("Enter the value of radius:");
         int r = Convert.ToInt32(Console.ReadLine());
 
         double Circle = π * r * r;
