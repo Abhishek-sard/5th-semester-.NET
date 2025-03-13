@@ -5,7 +5,7 @@
     <TargetFramework>net9.0</TargetFramework> <!-- Ensure this is correct -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SmallestOfThree</StartupObject>
+    <StartupObject>OddEvenChecker</StartupObject>
   </PropertyGroup>
 
 </Project>
