@@ -5,7 +5,7 @@
     <TargetFramework>net9.0</TargetFramework> <!-- Ensure this is correct -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DivisibleBy5and10</StartupObject>
+    <StartupObject>DivisibleBy7Not13</StartupObject>
   </PropertyGroup>
 
 </Project>
