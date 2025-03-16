@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework> <!-- or net8.0 -->
+    <TargetFramework>net9.0</TargetFramework> 
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>PrimeOrNot</StartupObject> <!-- Corrected to match your class name -->
+    <StartupObject>PrintPrime</StartupObject> 
   </PropertyGroup>
 </Project>
