@@ -4,6 +4,6 @@
     <TargetFramework>net9.0</TargetFramework> <!-- or net8.0 -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>PrintNumber</StartupObject> <!-- Corrected to match your class name -->
+    <StartupObject>SumOfNumber</StartupObject> <!-- Corrected to match your class name -->
   </PropertyGroup>
 </Project>
