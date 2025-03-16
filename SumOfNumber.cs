@@ -10,3 +10,5 @@ class SumOfNumber{
         Console.WriteLine("The sum of number from 5 to 100 is:"+ sum);
     }
 }
+//logic 100-5+1=96
+// 96/2*(100+5)=5040
