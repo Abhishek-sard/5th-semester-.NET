@@ -6,7 +6,6 @@
 		<TargetFramework>
 			net9.0
 		</TargetFramework>
-		<!-- Ensure this is correct -->
 		<ImplicitUsings>
 			enable
 		</ImplicitUsings>
@@ -14,7 +13,7 @@
 			enable
 		</Nullable>
 		<StartupObject>
-			ProfitOrLoss
+			PrintNumber
 		</StartupObject>
 	</PropertyGroup>
 </Project>
