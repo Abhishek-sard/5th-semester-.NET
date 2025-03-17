@@ -4,6 +4,6 @@
     <TargetFramework>net9.0</TargetFramework> 
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>PrintPrime</StartupObject> 
+    <StartupObject>SumOfArray</StartupObject> 
   </PropertyGroup>
 </Project>
