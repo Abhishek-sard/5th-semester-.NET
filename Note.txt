@@ -1,0 +1,26 @@
+1. Assign string:
+String s;
+s="hello world";
+
+2. copying string
+String s1 = s;
+String s1 = string.Copy(s);
+
+3. Concatending string
+String s2 = s + s1;
+String s2 = string.Concat(s,s1);
+
+4. Number to string
+int a = 10;
+string s = a.ToString();
+
+5. String insert
+String s1 = "hello",
+string s2 = s1.insert(3,"world"),
+string s3 = s1.insert(3,"done"),
+
+6. String Compare
+int n = string Compare(s1, s2);
+bool a = s1.Equal(s2),
+s1.CompareTo(s2)
+
