@@ -4,6 +4,6 @@
     <TargetFramework>net9.0</TargetFramework> 
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>SortPersonName</StartupObject> 
+    <StartupObject>AddToMatrix</StartupObject> 
   </PropertyGroup>
 </Project>

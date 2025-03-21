@@ -24,3 +24,6 @@ int n = string Compare(s1, s2);
 bool a = s1.Equal(s2),
 s1.CompareTo(s2)
 
+7. Parsing is the process of converting a string into another data types like int,float,
+8. Sorting is the technique of putting the items of a collection in a certain order in C#
+9. string are object that allow us to store sequence of character which may conatin.
