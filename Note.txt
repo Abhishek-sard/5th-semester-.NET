@@ -44,10 +44,13 @@ string s2 = s1 ?? "nothing";
 14. Null condition operator
 
 15. Namespace
-Namespace MyNamespace{
+namespace MyNamespace{
     class MyClass{
         public void MyMethod(){
             //statement
         }
     }
 }
+
+16. Namespace: a logical container that organizes identifiers (names of types, functions, variables, etc.) to prevent naming conflicts and improve code organization
+
