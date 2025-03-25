@@ -28,3 +28,26 @@ s1.CompareTo(s2)
 8. Sorting is the technique of putting the items of a collection in a certain order in C#
 9. string are object that allow us to store sequence of character which may conatin.
 10. params is used as a parameter which can take the variable number of arguments of specific data type.
+
+
+11. operator
+left associativity
+left to right
+
+12. right associativity
+right to left
+
+13. Null coalescing operator
+string s1 = null;
+string s2 = s1 ?? "nothing";
+
+14. Null condition operator
+
+15. Namespace
+Namespace MyNamespace{
+    class MyClass{
+        public void MyMethod(){
+            //statement
+        }
+    }
+}
