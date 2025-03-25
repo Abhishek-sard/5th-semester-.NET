@@ -4,19 +4,15 @@ class Simplifly
 {
     static void Main()
     {
-        // Prompt the user for the first number
         Console.WriteLine("Enter the first number:");
         int a = Convert.ToInt32(Console.ReadLine());
 
-        // Prompt the user for the second number
         Console.WriteLine("Enter the second number:");
         int b = Convert.ToInt32(Console.ReadLine());
 
-        // Prompt the user for the operator
         Console.WriteLine("Enter the operator (+, -, *, /):");
-        char op = Console.ReadLine()[0]; // Read the first character of the input
+        char op = Console.ReadLine()[0]; 
 
-        // Perform the operation based on the operator
         int result = 0;
         switch (op)
         {
