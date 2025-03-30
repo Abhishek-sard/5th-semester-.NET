@@ -54,3 +54,4 @@ namespace MyNamespace{
 
 16. Namespace: a logical container that organizes identifiers (names of types, functions, variables, etc.) to prevent naming conflicts and improve code organization
 
+17. Exception handling: allow you to gracefully manage unexpected event that occur during program execution.
