@@ -55,3 +55,11 @@ namespace MyNamespace{
 16. Namespace: a logical container that organizes identifiers (names of types, functions, variables, etc.) to prevent naming conflicts and improve code organization
 
 17. Exception handling: allow you to gracefully manage unexpected event that occur during program execution.
+18. Nested try block allow handling different Exception at different levels. ensuring better control over error handling.
+19.try and catch are key Components of exception handling. they help handle runtime errors gracefully withot crashig the program.
+20. try{
+    //if an error occurs inside the try block, the control is transferred to the catch block.
+}
+21. catch{
+    catches and handle exception thrown in the try block.
+}
