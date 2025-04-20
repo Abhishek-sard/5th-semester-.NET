@@ -63,3 +63,10 @@ namespace MyNamespace{
 21. catch{
     catches and handle exception thrown in the try block.
 }
+22. interface 
+interface interface_name{
+    //method signature
+}
+class class_name : interface_name{
+    //method implementation
+}
