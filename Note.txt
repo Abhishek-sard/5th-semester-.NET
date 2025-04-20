@@ -70,3 +70,26 @@ interface interface_name{
 class class_name : interface_name{
     //method implementation
 }
+
+
+interface calculate{
+    void data(int l, int b, int h);
+    void area();
+    void perimeter();
+    void volume();
+}
+class B: calculate{
+    void data(int l, int b, int h)
+    this. l = 10;
+    this. b = 20;
+    this. h = 19;
+
+}
+void area(){
+    int area = l * b;
+    return area;
+}
+interface: provide abstraction
+
+23. multiple inheritance: 2 child = 1 parent;
+24. hybrid inheritance:
