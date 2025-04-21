@@ -92,4 +92,68 @@ void area(){
 interface: provide abstraction
 
 23. multiple inheritance: 2 child = 1 parent;
-24. hybrid inheritance:
+example:
+Using System;
+interface bird{
+    void fly();
+}
+interface fish{
+    void swim();
+}
+class c: a,b{
+    public void fly(){
+        console.writeline("It is flying");
+    }
+    public void swin(){
+        console.writeline("It is swimming");
+    }
+}
+class program{
+    static void Main(String[]args){
+        c obj = new c ();
+
+        obj.fly();
+        obj.swim();
+        console.Readline();
+
+    }
+}
+24. hybrid inheritance: 
+Using System;
+Interface A{
+    void fly();
+}
+interface B{
+    void swim();
+
+}
+class Animal{
+    public void eat(){
+        console.writeline("it eats:")
+    }
+}
+class c:A,b{
+    publc void fly(){
+        console.writeline("it is flying");
+    }
+    public void swim(){
+        console.writeline("it is swimming");
+    }
+}
+class Dog:Animal,c{
+    publc void bark(){
+        console.writeline("it barks:");
+    }
+}
+class Program{
+    static vid Main(String[]args){
+        c obj = new c ();
+        obj. fly();
+        obj.swim();
+        Dog myDog = new Dog();
+        myDog.fly();
+        myDog.swim();
+        myDog.eat();
+        myDog.bark();
+    }
+}
