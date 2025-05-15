@@ -14,7 +14,7 @@ namespace EventSample{
             }
         }
     }
-    Class Program{
+    Class EvnetListener{
     static void Main(String[]args){
         Button button = new Button();
         Subscriber subs = new Subscriber();
