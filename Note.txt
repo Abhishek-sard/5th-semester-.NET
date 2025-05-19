@@ -212,3 +212,7 @@ LINQ METHOD - LAMBDA EXPRESSION
  Equal, sequence, Equal -> equality
  empty, range, repeat -> generation
  todictionary, tolist, etc -> conversion
+
+
+
+
