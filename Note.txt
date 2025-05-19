@@ -195,6 +195,20 @@ can be of two types:
 2. statement lambda: consists of input and set of statement to be excetuted syntax: input=> statements:
 
 
+LINQ METHOD - LAMBDA EXPRESSION
+ Linq Opearator
 
-
-
+ where, Typeof -> filtering
+ orderBy, orderByDescedning, Then By, etc-> sorting
+ GroupBy, ToLookUp -> Grouping
+ GroupJoin, Join -> join
+ select selectmany -> protecting
+ aggregate, average, etc -> aggregration
+ all, any, contains -> quantifiers
+ elementat, first, last, etc -> elements
+ distnct, except, etc -> set
+ skip, skipwhile take -> partitiong
+ concat -> concatenation
+ Equal, sequence, Equal -> equality
+ empty, range, repeat -> generation
+ todictionary, tolist, etc -> conversion
