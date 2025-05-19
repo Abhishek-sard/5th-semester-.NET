@@ -188,6 +188,8 @@ namespace EventSample{
 
 //lambda expression
 A way to define an anonymous function or method without explicity creating a method or delegate.
+//explain anonymous method with example
+
 often used in conjunction with linq
 syntax: (input parameter)=>expression
 can be of two types:
