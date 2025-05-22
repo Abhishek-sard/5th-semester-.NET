@@ -1,30 +1,34 @@
-Using System;
-Using System.ling;
-Using System.collections.Generic;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
-public class Ling
+public class Student
 {
     public int Id { get; set; }
     public string Name { get; set; }
     public string City { get; set; }
-    public string college { get; set; }
+    public string College { get; set; }
 }
-class Program
+
+class Ling
 {
-    Static void Main(string[] args)
+    static void Main(string[] args)
     {
-        List<student> lings = new List<student>()
+        List<Student> students = new List<Student>()
         {
-            new student { Id = 1, Name = "John", City = "New York", College = "Harvard" },
-            new student { Id = 2, Name = "Jane", City = "Los Angeles", College = "Stanford" },
-            new student { Id = 3, Name = "Bob", City = "Chicago", College = "Yale" }
+            new Student { Id = 1, Name = "John", City = "New York", College = "Harvard" },
+            new Student { Id = 2, Name = "Jane", City = "Los Angeles", College = "Stanford" },
+            new Student { Id = 3, Name = "Bob", City = "Chicago", College = "Yale" }
         };
-        var Selected students = from s in lings where s.City == "New York" select s;
-        foreach (var s in Selected students);
+        
+        var selectedStudents = from s in students 
+                              where s.City == "New York" 
+                              select s;
+        
+        Console.WriteLine("Students name list:");
+        foreach (var s in selectedStudents)
         {
-            Console.WriteLine("students namelist:");
-            foreach (var s in Selected students){
-                console.writeline(s.Name);
-                
-            }
+            Console.WriteLine($"Id={s.Id}, Name={s.Name}");
+        }
     }
+}
